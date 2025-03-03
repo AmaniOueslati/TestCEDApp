@@ -31,5 +31,8 @@ COPY --from=build /app/publish .
 # Expose the application port
 EXPOSE 8080
 
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV db_connection_string="Server=tcp:ced-sqlinterns-t-01.database.windows.net,1433;Database=CED.AksInterns;User Id=AksUser;Password=YR-%Sbw7#S0;"
+
 # Set the entry point for the application
 ENTRYPOINT ["dotnet", "WebApi.dll"]
