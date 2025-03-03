@@ -1,0 +1,21 @@
+.custom-edit-btn {
+  background-color: #3899DD; /* Green */
+  border-color: #3899DD;
+  color: white;
+}
+
+.custom-edit-btn:hover {
+  background-color: rgb(52, 132, 189);
+  border-color: rgb(52, 132, 189);
+}
+
+.custom-delete-btn {
+  background-color: #7030A0; /* Red */
+  border-color: #7030A0;
+  color: white;
+}
+
+.custom-delete-btn:hover {
+  background-color: #632d8d;
+  border-color: #632d8d;
+}
